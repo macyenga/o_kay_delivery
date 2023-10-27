@@ -4,14 +4,14 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
-import 'package:foodpanda_rider/finish_deliver/screens/finish_deliver_screen.dart';
-import 'package:foodpanda_rider/home/controllers/order_controller.dart';
-import 'package:foodpanda_rider/map/widgets/bottom_container.dart';
-import 'package:foodpanda_rider/map/widgets/map_widget.dart';
-import 'package:foodpanda_rider/models/order.dart';
+import 'package:o_kay_delivery/finish_deliver/screens/finish_deliver_screen.dart';
+import 'package:o_kay_delivery/home/controllers/order_controller.dart';
+import 'package:o_kay_delivery/map/widgets/bottom_container.dart';
+import 'package:o_kay_delivery/map/widgets/map_widget.dart';
+import 'package:o_kay_delivery/models/order.dart';
 
-import 'package:foodpanda_rider/providers/location_provider.dart';
-import 'package:foodpanda_rider/widgets/ficon_button.dart';
+import 'package:o_kay_delivery/providers/location_provider.dart';
+import 'package:o_kay_delivery/widgets/ficon_button.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 

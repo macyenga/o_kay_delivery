@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
 
 class HomeScreenNoApprove extends StatelessWidget {
   static const String routeName = '/home-screen-no-approve';
@@ -12,7 +12,7 @@ class HomeScreenNoApprove extends StatelessWidget {
         backgroundColor: Colors.white,
         foregroundColor: scheme.primary,
         title: const Text(
-          'FoodPanda Rider',
+          'Kay AGEZE Rider',
           style: TextStyle(
             fontSize: 16,
           ),

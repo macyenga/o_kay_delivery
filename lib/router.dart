@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/screens/authentication_screen.dart';
-import 'package:foodpanda_rider/authentication/screens/login_screen.dart';
-import 'package:foodpanda_rider/authentication/screens/register_screen.dart';
-import 'package:foodpanda_rider/authentication/screens/send_verification_email_screen.dart';
-import 'package:foodpanda_rider/finish_deliver/screens/finish_deliver_screen.dart';
-import 'package:foodpanda_rider/home/screens/home_screen.dart';
-import 'package:foodpanda_rider/home/screens/home_screen_no_approve.dart';
-import 'package:foodpanda_rider/map/screens/map_screen.dart';
-import 'package:foodpanda_rider/order_history/screens/order_history_screen.dart';
+import 'package:o_kay_delivery/authentication/screens/authentication_screen.dart';
+import 'package:o_kay_delivery/authentication/screens/login_screen.dart';
+import 'package:o_kay_delivery/authentication/screens/register_screen.dart';
+import 'package:o_kay_delivery/authentication/screens/send_verification_email_screen.dart';
+import 'package:o_kay_delivery/finish_deliver/screens/finish_deliver_screen.dart';
+import 'package:o_kay_delivery/home/screens/home_screen.dart';
+import 'package:o_kay_delivery/home/screens/home_screen_no_approve.dart';
+import 'package:o_kay_delivery/map/screens/map_screen.dart';
+import 'package:o_kay_delivery/order_history/screens/order_history_screen.dart';
 
 Route<dynamic> generateRoute(RouteSettings routeSettings) {
   switch (routeSettings.name) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
 
 class CustomTextField extends StatefulWidget {
   final TextEditingController? controller;

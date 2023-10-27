@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/screens/authentication_screen.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
-import 'package:foodpanda_rider/order_history/screens/order_history_screen.dart';
-import 'package:foodpanda_rider/providers/authentication_provider.dart';
-import 'package:foodpanda_rider/widgets/my_alert_dialog.dart';
+import 'package:o_kay_delivery/authentication/screens/authentication_screen.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
+import 'package:o_kay_delivery/order_history/screens/order_history_screen.dart';
+import 'package:o_kay_delivery/providers/authentication_provider.dart';
+import 'package:o_kay_delivery/widgets/my_alert_dialog.dart';
 import 'package:provider/provider.dart';
 
 class MyDrawer extends StatelessWidget {
@@ -49,7 +49,7 @@ class MyDrawer extends StatelessWidget {
                           ),
                         ),
                         Text(
-                          ap.name!.isNotEmpty ? ap.name! : 'Foodpanda',
+                          ap.name!.isNotEmpty ? ap.name! : 'kay',
                           style: const TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.w700,

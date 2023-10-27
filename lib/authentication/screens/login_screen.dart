@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/screens/send_verification_email_screen.dart';
-import 'package:foodpanda_rider/authentication/widgets/custom_textbutton.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
-import 'package:foodpanda_rider/home/screens/home_screen.dart';
-import 'package:foodpanda_rider/providers/authentication_provider.dart';
-import 'package:foodpanda_rider/providers/internet_provider.dart';
-import 'package:foodpanda_rider/widgets/custom_textfield.dart';
-import 'package:foodpanda_rider/widgets/my_snack_bar.dart';
+import 'package:o_kay_delivery/authentication/screens/send_verification_email_screen.dart';
+import 'package:o_kay_delivery/authentication/widgets/custom_textbutton.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
+import 'package:o_kay_delivery/home/screens/home_screen.dart';
+import 'package:o_kay_delivery/providers/authentication_provider.dart';
+import 'package:o_kay_delivery/providers/internet_provider.dart';
+import 'package:o_kay_delivery/widgets/custom_textfield.dart';
+import 'package:o_kay_delivery/widgets/my_snack_bar.dart';
 import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
-import 'package:foodpanda_rider/home/controllers/order_controller.dart';
-import 'package:foodpanda_rider/home/widgets/my_drawer.dart';
-import 'package:foodpanda_rider/home/widgets/order_card.dart';
-import 'package:foodpanda_rider/map/screens/map_screen.dart';
-import 'package:foodpanda_rider/models/order.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
+import 'package:o_kay_delivery/home/controllers/order_controller.dart';
+import 'package:o_kay_delivery/home/widgets/my_drawer.dart';
+import 'package:o_kay_delivery/home/widgets/order_card.dart';
+import 'package:o_kay_delivery/map/screens/map_screen.dart';
+import 'package:o_kay_delivery/models/order.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = '/home-screen';

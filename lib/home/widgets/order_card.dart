@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/widgets/custom_textbutton.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
-import 'package:foodpanda_rider/constants/helper.dart';
-import 'package:foodpanda_rider/models/order.dart';
+import 'package:o_kay_delivery/authentication/widgets/custom_textbutton.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
+import 'package:o_kay_delivery/constants/helper.dart';
+import 'package:o_kay_delivery/models/order.dart';
 import 'package:intl/intl.dart';
 
 class OrderCard extends StatefulWidget {

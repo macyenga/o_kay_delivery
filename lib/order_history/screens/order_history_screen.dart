@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/home/controllers/order_controller.dart';
-import 'package:foodpanda_rider/home/widgets/order_card.dart';
-import 'package:foodpanda_rider/models/order.dart';
+import 'package:o_kay_delivery/home/controllers/order_controller.dart';
+import 'package:o_kay_delivery/home/widgets/order_card.dart';
+import 'package:o_kay_delivery/models/order.dart';
 
 class OrderHistoryScreen extends StatefulWidget {
   static const String routeName = '/order-history-screen';

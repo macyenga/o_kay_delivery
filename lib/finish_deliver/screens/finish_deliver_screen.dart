@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/widgets/custom_textbutton.dart';
+import 'package:o_kay_delivery/authentication/widgets/custom_textbutton.dart';
 
 class FinishDeliverScreen extends StatelessWidget {
   final double price;

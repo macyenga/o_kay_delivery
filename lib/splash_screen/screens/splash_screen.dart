@@ -3,11 +3,11 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/screens/authentication_screen.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
-import 'package:foodpanda_rider/home/screens/home_screen.dart';
-import 'package:foodpanda_rider/home/screens/home_screen_no_approve.dart';
-import 'package:foodpanda_rider/providers/authentication_provider.dart';
+import 'package:o_kay_delivery/authentication/screens/authentication_screen.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
+import 'package:o_kay_delivery/home/screens/home_screen.dart';
+import 'package:o_kay_delivery/home/screens/home_screen_no_approve.dart';
+import 'package:o_kay_delivery/providers/authentication_provider.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/authentication/screens/login_screen.dart';
-import 'package:foodpanda_rider/authentication/screens/register_screen.dart';
-import 'package:foodpanda_rider/authentication/widgets/custom_textbutton.dart';
+import 'package:o_kay_delivery/authentication/screens/login_screen.dart';
+import 'package:o_kay_delivery/authentication/screens/register_screen.dart';
+import 'package:o_kay_delivery/authentication/widgets/custom_textbutton.dart';
 
 class AuthenticationScreen extends StatefulWidget {
   static const String routeName = '/authentication-screen';
@@ -29,7 +29,7 @@ class _AuthenticationScreenState extends State<AuthenticationScreen> {
               height: MediaQuery.of(context).size.height * 0.55,
               child: Center(
                 child: Image.asset(
-                  'assets/images/foodpanda_logo.png',
+                  'assets/images/kay/ageze.png',
                   width: 200,
                 ),
               ),
@@ -37,7 +37,7 @@ class _AuthenticationScreenState extends State<AuthenticationScreen> {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               child: Text(
-                'Earn passive income with us, FoodPanda.',
+                'Earn passive income with us, Kay AGEZE Delivery.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
@@ -46,7 +46,7 @@ class _AuthenticationScreenState extends State<AuthenticationScreen> {
               ),
             ),
             Text(
-              'Welcome to FoodPanda!',
+              'Welcome to Kay AGEZE Delivery!',
               style: TextStyle(
                 color: Colors.grey[500]!,
                 fontWeight: FontWeight.w500,

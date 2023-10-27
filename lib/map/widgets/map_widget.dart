@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/constants/colors.dart';
+import 'package:o_kay_delivery/constants/colors.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class MapWidget extends StatelessWidget {

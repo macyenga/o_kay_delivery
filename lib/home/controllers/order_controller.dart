@@ -1,12 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:foodpanda_rider/constants/helper.dart';
-import 'package:foodpanda_rider/models/order.dart' as model;
-import 'package:foodpanda_rider/models/rider.dart';
-import 'package:foodpanda_rider/models/user.dart' as userModel;
-import 'package:foodpanda_rider/providers/authentication_provider.dart';
-import 'package:foodpanda_rider/providers/location_provider.dart';
+import 'package:o_kay_delivery/constants/helper.dart';
+import 'package:o_kay_delivery/models/order.dart' as model;
+import 'package:o_kay_delivery/models/rider.dart';
+import 'package:o_kay_delivery/models/user.dart' as userModel;
+import 'package:o_kay_delivery/providers/authentication_provider.dart';
+import 'package:o_kay_delivery/providers/location_provider.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 

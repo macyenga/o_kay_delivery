@@ -8,10 +8,13 @@ import 'package:o_kay_delivery/providers/location_provider.dart'; // Updated imp
 import 'package:o_kay_delivery/router.dart'; // Updated import
 import 'package:o_kay_delivery/splash_screen/screens/splash_screen.dart'; // Updated import
 import 'package:provider/provider.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
